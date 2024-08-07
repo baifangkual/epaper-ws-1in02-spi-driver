@@ -10,12 +10,16 @@ rppal = "0.18.0"
 log = "0.4.22"
 # 日志实现
 env_logger = "0.11.5"
+
+# 有这个不用其他图片处理了
+ril = { version = "0.10.1", features = ["png"] }
+
 # image库 创建图片
-image = "0.25.2"
+#image = "0.25.2"
 # image 处理图片
-imageproc = "0.25.0"
+#imageproc = "0.25.0"
 # 字体类型处理
-ab_glyph = "0.2.23"
+#ab_glyph = "0.2.23"
 # 该库在pi5上已不可使用，原因是linux在较高版本仅用了 /sys/class/gpio
 #sysfs_gpio = "0.6.2"
 

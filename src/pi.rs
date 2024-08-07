@@ -1,11 +1,10 @@
+pub mod service;
 
-mod service;
+pub mod pi_config;
 
-mod pi_config;
-
-mod e_paper_ws_1in02;
-mod font_load;
-mod buf_type_impl;
+pub mod e_paper_ws_1in02;
+pub mod font_load;
+pub mod buf_type_impl;
 
 
 
